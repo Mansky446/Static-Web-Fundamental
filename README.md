@@ -2,7 +2,7 @@
 
 Materi tentang web frontend basic. Dengan stack vanilla HTML, CSS dan JS (mungkin).
 
-## Ringkasan Subbab
+## Bab
 
 - [Pengenalan HTML](slides/1.md)
 - [Struktur Elemen HTML dan Sistem URL Dasar](slides/2.md)
