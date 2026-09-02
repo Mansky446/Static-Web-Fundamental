@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status Elemen</title>
+    <style>
+        div.container {
+            display: flex;
+            flex-direction: column;
+            width: max-content;
+            row-gap: 4px;
+        }
+
+        div.container > button {
+            padding: 8px 4px;
+            background-color: white;
+            border: 1px dotted black;
+        }
+
+        div.container > button:nth-of-type(odd):hover {
+            background-color: papayawhip;
+        }
+
+        div.container > button:nth-of-type(3):active {
+            background-color: gainsboro;
+        }
+
+        li:not([class]) {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button>Button 1</button>
+        <button>Button 2</button>
+        <button>Button 3</button>
+        <button>Button 4</button>
+        <button>Button 5</button>
+        <button>Button 6</button>
+    </div>
+    <ol>
+        <li>Minuman</li>
+        <li class="menu">Kopi</li>
+        <li class="menu">Susu</li>
+        <li>Makanan</li>
+        <li class="menu">Mie Instan</li>
+        <li class="menu">Hotdog KW</li>
+    </ol>
+</body>
+</html>

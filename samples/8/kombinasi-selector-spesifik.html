@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kombinasi Selector Spesifik</title>
+    <style>
+        div.container > p, span.tag {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Ini bergaya</p>
+        <div>
+            <p>Ini tidak bergaya</p>
+            <span class="tag">Ini bergaya</span>
+        </div>
+    </div>
+</body>
+</html>

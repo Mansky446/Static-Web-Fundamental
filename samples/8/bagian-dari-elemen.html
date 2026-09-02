@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagian Dari Elemen</title>
+    <style>
+        input::placeholder {
+            color: crimson;
+            opacity: 0.5;
+        }
+
+        span.tag::before {
+            content: "<";
+        }
+
+        span.tag::after {
+            content: ">";
+        }
+    </style>
+</head>
+<body>
+    <label for="nama">Nama: </label>
+    <br>
+    <input type="text" placeholder="Masukkan nama" id="nama">
+    <br>
+    <p>
+        Tag <span class="tag">html</span> adalah wajib di dalam file HTML.
+    </p>
+</body>
+</html>

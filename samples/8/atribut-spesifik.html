@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atribut Spesifik</title>
+    <style>
+        [type] {
+            border: 1px solid gray;
+        }
+
+        [type="text"] {
+            color: darkblue;
+        }
+
+        [title~="flower"] {
+            color: crimson;
+            background-color: gainsboro;
+        }
+
+        [class|="desc"] {
+            color: brown;
+        }
+
+        [href^="http"] {
+            border: 1px dotted black;
+        }
+
+        [src$=".png"] {
+            border: 2px solid blue;
+        }
+
+        [class*="container"] {
+            position: relative;
+            width: min-content;
+        }
+
+        [class*="container"]:hover {
+            top: 2px;
+            left: 2px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" name="" id="">
+    <br>
+    <input type="text" name="" id="">
+    <br>
+    <div>
+        <p title="The sunflower">The sunflower</p>
+        <p title="The orchid flower">The orchid flower</p>
+    </div>
+    <div>
+        <p class="title">Buffer</p>
+        <p class="desc-short">Buffer kosong</p>
+        <p class="desc-detailed">Buffer sedang kosong karena main thread belum selesai menjalankan fungsi user update</p>
+    </div>
+    <div>
+        <a href="https://www.w3schools.com/cssref/css_selectors.php">Ke W3school CSS Selector</a>
+        <br>
+        <a href="selector-dasar.html">Ke Selector Dasar</a>
+    </div>
+    <img width="32" height="32" src="anon.png" alt="">
+    <br>
+    <img width="32" height="32" src="anon.jpg" alt="">
+    <br>
+    <div class="scontainer">
+        <p>Paragraf</p>
+    </div>
+</body>
+</html>
