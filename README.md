@@ -1,6 +1,6 @@
 # Static Web Fundamental
 
-Materi tentang web frontend basic. Dengan stack vanilla HTML, CSS dan JS (mungkin).
+Materi tentang web frontend basic dengan stack vanila HTML, CSS dan JS (mungkin).
 
 ## Bab
 
